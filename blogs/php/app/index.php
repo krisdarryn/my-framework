@@ -19,8 +19,10 @@ require 'config/Bootstrap.php';
 use Blogs\Init\Bootstrap;
 
 try {
+
+    // Bootstraping the application
     $bootstrap = new Bootstrap();
-    $bootstrap->initialize();
+    $bootstrap->run();
 
 } catch(\Exception $e) {
 

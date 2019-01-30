@@ -14,6 +14,8 @@ class Bootstrap {
 
     private $parameters;
 
+    private $controllerInstace;
+
     /**
      * Application Initialization
      * Set global variables
@@ -23,13 +25,20 @@ class Bootstrap {
      * 
      * @return void
      */
-    public function initialize() {
-        
+    public function __construct() {
         $this->loadModels();
         $this->loadLibraries();
         $this->initConfig();
+    }
+    
+    /**
+     * Run the application
+     * 
+     * @return void
+     */
+    public function run() {
         $this->initRoute();
-
+        $this->invokeViews();
     }
 
     /**
@@ -164,10 +173,10 @@ class Bootstrap {
         require $this->controllerFileLocation;
 
         $controllerFullName = 'Blogs\Controllers\\' . $this->controllerName;
-        $controllerInstance = new $controllerFullName();
+        $this->controllerInstance = new $controllerFullName();
 
         // Check if action exist in controller
-        if (!method_exists($controllerInstance, $this->actionName)) {
+        if (!method_exists($this->controllerInstance, $this->actionName)) {
             
             throw new \Exception("Action: {$this->actionName} doesn't exist in Controller: {$this->controllerName}.");
 
@@ -182,9 +191,27 @@ class Bootstrap {
             throw new \Exception("Action: {$this->actionName} requires {$noOfReqParamters} number of parammeters.");
 
         }
-
         
-        \call_user_func_array(array($controllerInstance, $this->actionName), $this->parameters);
+        \call_user_func_array(array($this->controllerInstance, $this->actionName), $this->parameters);
+
+    }
+
+    /**
+     * Render the controller view
+     * 
+     * @return void
+     */
+    private function invokeViews() {
+
+        // Load controller variables in to the view        
+        \extract($this->controllerInstance->getVars());
+
+        // Load the view file
+        if ( !empty($this->controllerInstance->getView()) && file_exists( __DIR__ . '/../views/' . $this->controllerInstance->getView() . '.php' ) ) {
+            
+            require __DIR__ . '/../views/' . $this->controllerInstance->getView() . '.php';
+
+        }
 
     }
 

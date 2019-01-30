@@ -1,0 +1,148 @@
+/*
+ * Page body wrapper
+ */
+#pg-body {
+    margin-top: 65px;
+}
+
+/*
+ * Article
+ */
+#blog-article-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.blog-article-item a {
+    color: #555;
+}
+
+.blog-article-item a:hover {
+    color: #555;
+    font-weight: 505;
+}
+
+@media (min-width: 758px) {
+    
+    #blog-article-list {
+        display: block;
+        flex-wrap: unset;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .blog-article-header,
+    .blog-article-body {
+        padding-left: 25px;
+    }
+    
+}
+
+/*
+ * Blog
+ */
+#blog-list-body {
+    margin-top: 45px;
+}
+
+.blog-item {
+    margin-bottom: 60px;
+}
+
+.blog-item-cover-img {
+    background-size: cover;
+    height: 514px;
+}
+
+.blog-item-desc-wrap {
+    margin-top: 35px;
+}
+
+.blog-item-desc {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blog-item-date {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.blog-item-title {
+    font-size: 1.6rem;
+}
+
+.blog-item-option a {
+    color: #555;
+    font-weight: 600;
+}
+    
+.blog-item-option a:hover {
+    color: #555;
+}
+
+@media (min-width: 758px) {
+    
+    .blog-item.odd {
+        box-shadow: 4px 4px 4px #e9e1e1;
+    }
+    
+    .blog-item.even {
+        box-shadow: -4px 4px 4px #e9e1e1;
+    }
+    
+    .blog-item.even .blog-item-desc-wrap,
+    .blog-item.even .blog-item-option {
+        padding-left: 25px;
+    }
+    
+    .blog-item-desc-wrap {
+        margin-top: 0;
+    }
+    
+}
+
+/*
+ * Blog Item Detail
+ */
+ 
+#pg-body.blog-item-pg-wrap {
+    margin-top: 0;
+}
+
+.blog-item-dlt-image {
+    height: 404px;
+    background-size: cover;
+}
+
+.blog-item-dlt-header {
+    margin-top: 60px;
+}
+
+.blog-item-dlt-title {
+    font-size: 2rem;
+}
+
+.blog-item-dlt-body {
+    margin-top: 40px;
+}
+
+.blog-item-summary {
+    font-weight: 600;
+}
+
+.blog-item-carousel-item {
+    margin-top: 35px;
+    padding-bottom: 40px;
+}
+
+.blog-item-carousel-wrap {
+    padding: 0; 
+}
+
+.blog-item-carosel-image {
+    height: 340px;
+    background-position: 50% 50%;
+}

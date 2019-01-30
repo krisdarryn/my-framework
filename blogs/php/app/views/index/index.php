@@ -9,6 +9,8 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="/assets/libraries/styles/bootstrap-4.2.1-dist/css/bootstrap.min.css">
 
+        <link rel="stylesheet" href="/assets/styles/styles.css">
+        
         <title>Hello, world!</title>
     </head>
     <body>

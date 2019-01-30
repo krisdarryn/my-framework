@@ -105,10 +105,10 @@
                                                         
                                                         <p class="blog-item-date">Posted 22 May 2018</p>
 
-                                                        <h3 class="blog-item-title">A lesson in photography at The Murray Hotel </h3>
+                                                        <h3 class="blog-item-title">What is Lorem Ipsum?</h3>
 
                                                         <p class="blog-item-desc">
-                                                            Insight School students were treated to a private tour of the brand new The Murray Hotel whilst learning the art of taking interior and architecture photos.                               
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur sed nibh vel placerat. Nulla egestas velit quis tempor tempus. Aenean ut pretium mauris, sed imperdiet tellus.
                                                         </p>
 
                                                     </div>
@@ -137,11 +137,12 @@
                                                         
                                                         <p class="blog-item-date">Posted 22 May 2018</p>
 
-                                                        <h3 class="blog-item-title">A lesson in photography at The Murray Hotel </h3>
+                                                        <h3 class="blog-item-title">What is Lorem Ipsum?</h3>
 
                                                         <p class="blog-item-desc">
-                                                            Insight School students were treated to a private tour of the brand new The Murray Hotel whilst learning the art of taking interior and architecture photos.                               
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur sed nibh vel placerat. Nulla egestas velit quis tempor tempus. Aenean ut pretium mauris, sed imperdiet tellus.
                                                         </p>
+
 
                                                     </div>
 

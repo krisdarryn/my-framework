@@ -9,7 +9,9 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="/assets/libraries/styles/bootstrap-4.2.1-dist/css/bootstrap.min.css">
 
-        <title>Hello, world!</title>
+        <link rel="stylesheet" href="/assets/styles/styles.css">
+
+        <title>My Blog | Page Not Found</title>
     </head>
     <body>
 

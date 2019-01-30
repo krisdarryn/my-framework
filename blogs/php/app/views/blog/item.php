@@ -38,20 +38,25 @@
                             <div class="blog-item-dlt-wrap">
 
                                 <div class="blog-item-dlt-header">
-                                    <h1 class="blog-item-dlt-title">A lesson in photography at The Murray Hotel</h1>
+                                    <h1 class="blog-item-dlt-title">What is Lorem Ipsum?</h1>
                                 </div>
 
                                 <div class="blog-item-dlt-body">
                                     
                                     <p class="blog-item-summary">
-                                        The Certificate in Interior Design (Commercial) students were very excited to be invited to discover the interior of the newly renovated Murray Building. The purpose of the visit was to learn how to take photos of architectural and interior spaces. 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur sed nibh vel placerat. Nulla egestas velit quis tempor tempus. Aenean ut pretium mauris, sed imperdiet tellus. 
                                     </p>
 
                                     <p class="blog-item-date">Posted 22 May 2018</p>
 
-                                    <p class="blog-item-desc">
-                                        This historic landmark, originally a government building located in the heart of Hong Kong, was built in 1969 and has been remodelled into a luxury hotel. The original architect of the building, Ron Phillips, recompensed with numerous awards for his energy efficient design, had been invited to participate in the restoration of this hotel by Foster + Partners. 
-                                    </p>
+                                    <div class="blog-item-desc">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur sed nibh vel placerat. Nulla egestas velit quis tempor tempus. Aenean ut pretium mauris, sed imperdiet tellus. Sed luctus leo neque, dignissim placerat est pretium eu. Ut ut mauris vel tortor porta viverra nec id purus. Maecenas id ultricies massa. Pellentesque facilisis eros ut odio varius, vitae sodales eros lobortis. </p>
+
+                                        <p>Fusce eget nisi quam. Sed ut molestie ante. Maecenas accumsan orci et odio sodales sodales. Nunc et risus sagittis, finibus lacus eget, tempus magna. Proin leo mauris, elementum eget diam sed, pharetra mattis augue. Quisque volutpat nunc nec odio ultricies suscipit. In iaculis tellus vel libero vulputate consequat. Donec massa ligula, aliquet nec ante ac, pretium ullamcorper dolor. Suspendisse potenti. Vivamus sollicitudin dolor a lacus eleifend pretium. Vestibulum congue commodo venenatis. Morbi vulputate varius nisl, convallis dignissim turpis consequat ac. Quisque interdum hendrerit enim, ut tincidunt dui. Aenean at magna feugiat, tristique metus eu, vehicula sem. Etiam fringilla magna libero, sit amet volutpat elit feugiat et.</p>
+
+                                        <p>Donec sit amet egestas justo. Morbi accumsan vestibulum nisl sit amet finibus. Proin feugiat dapibus lorem, sit amet efficitur lorem fringilla ut. Praesent hendrerit nibh at lectus mollis, at ullamcorper leo porta. Praesent aliquet tincidunt augue, et facilisis dui mattis et. Vivamus in odio aliquam turpis tempus pretium. Nam venenatis est in sollicitudin suscipit. Nullam sit amet lorem eget tortor mattis sagittis. Cras sollicitudin, risus quis pretium sodales, ipsum lorem facilisis lacus, eget sollicitudin risus sapien et quam. Integer condimentum aliquet purus, non congue nisi gravida in. Duis pulvinar semper tincidunt. Suspendisse porttitor commodo blandit. Curabitur cursus, lorem sed tristique semper, tellus arcu vestibulum tellus, ut tincidunt risus nulla ac metus. Proin et fermentum nisi. </p>
+                                    </div>
 
                                 </div>
 

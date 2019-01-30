@@ -1,5 +1,5 @@
 # my-framework
-A PHP application, creating a simple MVC-Framework, where routing is base on the Contrller name and method name.
+A PHP application, creating a simple MVC-Framework, where routing is base on the Controller name and Method name.
 
 # Note: in-progress
 Directory Structure:

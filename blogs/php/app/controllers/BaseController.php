@@ -20,7 +20,7 @@ class BaseController {
         $this->controllerFileLocation = $GLOBALS['controllerFileLocation'];
 
         $this->variables = array();
-        $this->views = array();
+        $this->view = '';
     }
 
     public function getControllerName() {
@@ -50,5 +50,16 @@ class BaseController {
         $this->variables = $variables;
     }
 
+    public function getVars() {
+        return $this->variables;
+    }
+
+    public function setView($view) {
+        $this->view = $view;
+    }
+
+    public function getView() {
+        return $this->view;
+    }
 
 }

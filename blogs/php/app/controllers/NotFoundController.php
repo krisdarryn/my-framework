@@ -11,7 +11,8 @@ class NotFoundController extends BaseController {
     }
 
     public function indexAction() {
-        echo 'Page not found';
+        $this->view = 'not-found/index';
+        $this->setVar('pageTitle', 'Page Not Found');
     }
 
 }

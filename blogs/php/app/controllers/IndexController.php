@@ -11,7 +11,9 @@ class IndexController extends BaseController {
     }
 
     public function indexAction() {
-        echo 'Index Controller';
+        // Redirect to blog list page
+        header('Location: blog/list');
+        exit();
     }
 
 }
